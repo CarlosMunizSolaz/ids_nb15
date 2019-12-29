@@ -38,12 +38,17 @@ La memoria del trabajo está disponible en la biblioteca digital de la Universid
   - **training_subset_rand.csv:** **Data set permutado de entrenamiento NB15. Usado por los algoritmos de aprendizaje clasico**
   - **training_subset_rand_numerical.csv:** Data set permutado de entrenamiento NB15 con las clases numéricas (no se usa)
 * **datasets/hierarchical:**
-  - **40percent.csv:** 	40 % data set original permutado de entrenamiento NB15
+  - **40percent.csv:** 	**40 % data set original permutado de entrenamiento NB15**
   - **60percent.csv:** 	60 % data set original permutado de entrenamiento NB15. A partir de este data set se construyeron los siguientes.
-  - **Nivel1.csv:** data set con ataques y no ataques (binario) 
-  - **Nivel2.csv:** data set con ataques DoS/Exploits y el resto de ataques
-  - **Nivel3a.csv:** data set solo con ataques DoS y Exploits
-  - **Nivel3b.csv:** data set con ataques que no son DoS o Exploits
+  - **Nivel1.csv:** **data set con ataques y no ataques (binario)** 
+  - **Nivel2.csv:** **data set con ataques DoS/Exploits y el resto de ataques**
+  - **Nivel3a.csv:** **data set solo con ataques DoS y Exploits**
+  - **Nivel3b.csv:** **data set con ataques que no son DoS o Exploits**
 
-* models:
+* **models:**
+  - **bayes.py:** Algoritmo Naive Bayes (no aparece en la memoria)
+  - **decision.py:** Árbol de decisión
+  - **knn.py:** k-vecinos más cercanos
+  - **neural.py:** Red neuronal 
+  - **svm.py:** Support Vector Machine
 * scripts:
