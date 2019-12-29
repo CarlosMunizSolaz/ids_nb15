@@ -56,6 +56,6 @@ La memoria del trabajo está disponible en la biblioteca digital de la Universid
   
 * **models/hierarchical:**
   - **randomf.py:** Random forest. Usa los data set 40percent.csv y 60percent.csv
-  - **
+  - **hierarchical.py:** Clasificador jerárquico de random forests. Usa los data sets 40percent.csv, Nivel1.csv, Nivel2.csv, Nivel3a.csv y Nivel3b.csv.
   
 * scripts:
