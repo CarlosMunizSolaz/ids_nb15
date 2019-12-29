@@ -28,3 +28,6 @@ La memoria del trabajo está disponible en la biblioteca digital de la Universid
 
 # Estructura del Repositorio
 
+* datasets:
+* models:
+* scripts:
