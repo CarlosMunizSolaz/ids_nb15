@@ -35,7 +35,7 @@ La memoria del trabajo está disponible en la biblioteca digital de la Universid
   - **UNSW_NB15_training_subset.arff:** Data set original de entrenamiento NB15 en formato Weka
   - **testing_subset_rand.csv:** Data set permutado de validación NB15 (no se usa)
   - **testing_subset_rand_numerical.csv:** Data set permutado de validación NB15 con las clases numéricas (no se usa)
-  - **training_subset_rand.csv:** Data set permutado de entrenamiento NB15. Usado por los algoritmos de aprendizaje clasico
+  - **training_subset_rand.csv:** **Data set permutado de entrenamiento NB15. Usado por los algoritmos de aprendizaje clasico**
   - **training_subset_rand_numerical.csv:** Data set permutado de entrenamiento NB15 con las clases numéricas (no se usa)
 * models:
 * scripts:
