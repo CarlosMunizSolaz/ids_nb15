@@ -39,7 +39,7 @@ La memoria del trabajo está disponible en la biblioteca digital de la Universid
   - **training_subset_rand_numerical.csv:** Data set permutado de entrenamiento NB15 con las clases numéricas (no se usa)
 * **datasets/hierarchical:**
   - **40percent.csv:** 	**40 % data set original permutado de entrenamiento NB15**
-  - **60percent.csv:** 	60 % data set original permutado de entrenamiento NB15. A partir de este data set se construyeron los siguientes.
+  - **60percent.csv:** 	**60 % data set original permutado de entrenamiento NB15. A partir de este data set se construyeron los siguientes.**
   - **Nivel1.csv:** **data set con ataques y no ataques (binario)** 
   - **Nivel2.csv:** **data set con ataques DoS/Exploits y el resto de ataques**
   - **Nivel3a.csv:** **data set solo con ataques DoS y Exploits**
@@ -51,4 +51,11 @@ La memoria del trabajo está disponible en la biblioteca digital de la Universid
   - **knn.py:** k-vecinos más cercanos
   - **neural.py:** Red neuronal 
   - **svm.py:** Support Vector Machine
+  
+  Todos ellos usan el data set training_subset_rand.csv.
+  
+* **models/hierarchical:**
+  - **randomf.py:** Random forest. Usa los data set 40percent.csv y 60percent.csv
+  - **
+  
 * scripts:
